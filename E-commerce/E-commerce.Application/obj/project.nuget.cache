@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NLE28pxBXhI=",
+  "success": true,
+  "projectFilePath": "E:\\ITI Task\\C#\\Project\\E-commerce\\E-commerce.Application\\E-commerce.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bassem\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\bassem\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
