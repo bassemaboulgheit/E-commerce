@@ -20,22 +20,15 @@ namespace E_commerce.Application.Services
 
         public async Task<(bool Success, string Message, User Data)> LoginAsync(string username, string password)
         {
-            //    if (string.IsNullOrWhiteSpace(username))
-            //        throw new ArgumentException("Username cannot be empty or whitespace", nameof(username));
-
-            //    if (string.IsNullOrWhiteSpace(password))
-            //        throw new ArgumentException("Password cannot be empty or whitespace", nameof(password));
-
-            //    username = username.Trim();
-            //    password = password.Trim();
-
-            //    return await _userRepository.LoginAsync(username, password);
 
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
                 return (false, "Username or Password cannot be empty", null);
 
 
-            var user = await _userRepository.LoginAsync(username, password);
+            var user = await _userRepository.LoginAsync(username.Trim(), password.Trim());
+
+            if (user == null)
+                return (false, "Invalid username or password", null);
 
             if (user.Role == "Admin")
             {
@@ -62,19 +55,19 @@ namespace E_commerce.Application.Services
             if (string.IsNullOrWhiteSpace(email))
                 return (false, "Please enter an email");
 
-            //if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
-            //    return (false, "Invalid email format");
+            if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                return (false, "Invalid email format");
 
-            //if (string.IsNullOrWhiteSpace(password))
-            //    return (false, "Please enter a password");
+            if (string.IsNullOrWhiteSpace(password))
+                return (false, "Please enter a password");
 
-            //if (password != confirmPassword)
-            //    return (false, "Passwords do not match");
+            if (password != confirmPassword)
+                return (false, "Passwords do not match");
 
-            // 2. Check if email already exists
-            //var exists = await _userRepository.ExistsByEmailAsync(email);
-            //if (exists)
-            //    return (false, "Email already registered");
+            //2.Check if email already exists
+            var exists = await _userRepository.ExistsByEmailAsync(email);
+            if (exists)
+                return (false, "Email already registered");
 
 
 
@@ -83,7 +76,7 @@ namespace E_commerce.Application.Services
                 Name = username.Trim(),
                 Email = email.Trim(),
                 Password = password.Trim(),
-                Role = "Customer" // أو تحددها بناءً على اختيار
+                Role = "Customer" 
             };
 
             await _userRepository.AddAsync(user);
