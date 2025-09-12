@@ -1,0 +1,17 @@
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\bin\Debug\net8.0\E-commerce.Context.deps.json
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\bin\Debug\net8.0\E-commerce.Context.runtimeconfig.json
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\bin\Debug\net8.0\E-commerce.Context.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\bin\Debug\net8.0\E-commerce.Context.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\bin\Debug\net8.0\E-commerce.Models.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\bin\Debug\net8.0\E-commerce.Models.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commerce.Context.csproj.AssemblyReference.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commerce.Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commerce.Context.AssemblyInfoInputs.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commerce.Context.AssemblyInfo.cs
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commerce.Context.csproj.CoreCompileInputs.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commer.FA33002E.Up2Date
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commerce.Context.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\refint\E-commerce.Context.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commerce.Context.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\E-commerce.Context.genruntimeconfig.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Context\obj\Debug\net8.0\ref\E-commerce.Context.dll
