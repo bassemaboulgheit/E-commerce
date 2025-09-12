@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9qkKUxIadqA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mohamed ayman\\Downloads\\E-commerce-main\\E-commerce\\E-commerce.Application\\E-commerce.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mohamed ayman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\mohamed ayman\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\mohamed ayman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
