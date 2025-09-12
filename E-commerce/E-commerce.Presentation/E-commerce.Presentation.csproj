@@ -9,4 +9,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Media\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-commerce.Application\E-commerce.Application.csproj" />
+    <ProjectReference Include="..\E-commerce.infrastructure\E-commerce.infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
