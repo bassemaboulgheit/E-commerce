@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-commerce.Application\E-commerce.Application.csproj" />
+    <ProjectReference Include="..\E-commerce.Context\E-commerce.Context.csproj" />
+    <ProjectReference Include="..\E-commerce.infrastructure\E-commerce.infrastructure.csproj" />
+    <ProjectReference Include="..\E-commerce.Models\E-commerce.Models.csproj" />
+  </ItemGroup>
+
+</Project>
