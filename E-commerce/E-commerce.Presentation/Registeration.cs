@@ -24,42 +24,19 @@ namespace E_commerce.Presentation
 
         private async void Register_Click(object sender, EventArgs e)
         {
-            // 1. Validation
-            if (string.IsNullOrWhiteSpace(UserName.Text))
-            {
-                MessageBox.Show("Please enter a username", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            if (string.IsNullOrWhiteSpace(Email.Text))
-            {
-                MessageBox.Show("Please enter an email", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            //if (!Regex.IsMatch(Email.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            // 2. Create DTO
+            //User dto = new User
             //{
-            //    MessageBox.Show("Invalid email format", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            //    return;
-            //}
-
-            //if (string.IsNullOrWhiteSpace(Password.Text))
-            //{
-            //    MessageBox.Show("Please enter a password", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            //    return;
-            //}
-
-            //if (Password.Text != ConfirmPassword.Text)
-            //{
-            //    MessageBox.Show("Passwords do not match", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            //    return;
-            //}
+            //    Name = textBox1.Text.Trim(),
+            //    Email = textBox3.Text.Trim(),
+            //    Password = textBox2.Text.Trim()
+            //};
 
             var result = await _userService.RegisterAsync(
-                   UserName.Text,
-                   Email.Text,
-                   Password.Text,
-                   ConfirmPassword.Text
+                   textBox1.Text,
+                   textBox3.Text,
+                   textBox2.Text,
+                   textBox4.Text
                );
 
             if (!result.Success)
@@ -70,39 +47,9 @@ namespace E_commerce.Presentation
 
             MessageBox.Show(result.Message, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-
-            // 2. Create DTO
-            User dto = new User
-            {
-                Name = UserName.Text.Trim(),
-                Email = Email.Text.Trim(),
-                Password = Password.Text.Trim()
-            };
-
-            // 3. Call Service
-            //var result = await _userService.RegisterAsync(dto);
-
-            //if (!result)
-            //{
-            //    MessageBox.Show("Registration failed. Try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    return;
-            //}
-
-            //MessageBox.Show("Registration successful! You can now log in.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            // 4. بعد التسجيل ارجع لفورم اللوجين
-
-            await _userService.AddAsync(dto);
-         
-            _userService.saveChanges();
-
             var loginForm = new Login();
             loginForm.Show();
-
-
             this.Close();
-
-
         }
     }
 }
