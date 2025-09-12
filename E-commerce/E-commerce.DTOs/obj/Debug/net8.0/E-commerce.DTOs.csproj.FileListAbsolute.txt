@@ -1,0 +1,11 @@
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\bin\Debug\net8.0\E-commerce.DTOs.deps.json
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\bin\Debug\net8.0\E-commerce.DTOs.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\bin\Debug\net8.0\E-commerce.DTOs.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\obj\Debug\net8.0\E-commerce.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\obj\Debug\net8.0\E-commerce.DTOs.AssemblyInfoInputs.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\obj\Debug\net8.0\E-commerce.DTOs.AssemblyInfo.cs
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\obj\Debug\net8.0\E-commerce.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\obj\Debug\net8.0\E-commerce.DTOs.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\obj\Debug\net8.0\refint\E-commerce.DTOs.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\obj\Debug\net8.0\E-commerce.DTOs.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.DTOs\obj\Debug\net8.0\ref\E-commerce.DTOs.dll
