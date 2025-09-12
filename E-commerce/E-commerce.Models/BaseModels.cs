@@ -1,7 +1,9 @@
 ﻿namespace E_commerce.Models
 {
-    public class BaseModels
+    public abstract class BaseModels<TId> 
     {
+        public TId Id { get; set; }
+
 
     }
 }

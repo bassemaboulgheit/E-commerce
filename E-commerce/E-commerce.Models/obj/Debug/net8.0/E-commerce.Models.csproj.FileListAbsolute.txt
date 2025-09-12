@@ -1,0 +1,11 @@
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\bin\Debug\net8.0\E-commerce.Models.deps.json
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\bin\Debug\net8.0\E-commerce.Models.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\bin\Debug\net8.0\E-commerce.Models.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\obj\Debug\net8.0\E-commerce.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\obj\Debug\net8.0\E-commerce.Models.AssemblyInfoInputs.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\obj\Debug\net8.0\E-commerce.Models.AssemblyInfo.cs
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\obj\Debug\net8.0\E-commerce.Models.csproj.CoreCompileInputs.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\obj\Debug\net8.0\E-commerce.Models.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\obj\Debug\net8.0\refint\E-commerce.Models.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\obj\Debug\net8.0\E-commerce.Models.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Models\obj\Debug\net8.0\ref\E-commerce.Models.dll
