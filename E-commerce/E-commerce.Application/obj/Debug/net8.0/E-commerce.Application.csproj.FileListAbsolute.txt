@@ -1,0 +1,15 @@
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\E-commerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\E-commerce.Application.AssemblyInfoInputs.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\E-commerce.Application.AssemblyInfo.cs
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\E-commerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\bin\Debug\net8.0\E-commerce.Application.deps.json
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\bin\Debug\net8.0\E-commerce.Application.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\bin\Debug\net8.0\E-commerce.Application.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\E-commerce.Application.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\refint\E-commerce.Application.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\E-commerce.Application.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\ref\E-commerce.Application.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\bin\Debug\net8.0\E-commerce.Models.dll
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\bin\Debug\net8.0\E-commerce.Models.pdb
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\E-commerce.Application.csproj.AssemblyReference.cache
+C:\Users\mohamed ayman\Downloads\E-commerce-main\E-commerce\E-commerce.Application\obj\Debug\net8.0\E-commer.7B8DFC37.Up2Date

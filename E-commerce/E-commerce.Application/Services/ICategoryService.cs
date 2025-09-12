@@ -1,20 +1,21 @@
-﻿using System;
+﻿using E_commerce.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mapster;
-using MyEcommerce.DTOs.CategoriesDTOs;
-using MyEcommerce.Models;
 
-namespace MyEcommerce.Application.Services
+namespace E_commerce.Application.Services
 {
     public interface ICategoryService
     {
-        public List<CategoryDTO> GetAllCategories();
-        public void CreateCategory(CategoryDTO newCat);
-        public void UpdateCategory(CategoryDTO categoryDto);
-        public void DeleteCategory(CategoryDTO categoryDto);
-        public int Save();
+        //public List<Category> GetAllCategories(int PageNumber = 1, int PageSize = 5);
+        public List<Category> GetAllCategories();
+        public void CreateCategory(Category category);
+        public void DeleteCategory(Category category);
+        public void UpdateCategory(Category category);
+        public Category GetCategoryById(int id);
+        public Category GetCategoryByName(string name);
+        public int SaveCategory();
     }
 }

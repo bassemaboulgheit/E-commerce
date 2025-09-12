@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NLE28pxBXhI=",
+  "dgSpecHash": "9qkKUxIadqA=",
   "success": true,
-  "projectFilePath": "E:\\ITI Task\\C#\\Project\\E-commerce\\E-commerce.Application\\E-commerce.Application.csproj",
+  "projectFilePath": "C:\\Users\\mohamed ayman\\Downloads\\E-commerce-main\\E-commerce\\E-commerce.Application\\E-commerce.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\bassem\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
-    "C:\\Users\\bassem\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512"
+    "C:\\Users\\mohamed ayman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\mohamed ayman\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\mohamed ayman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,86 +1,79 @@
-﻿using System;
+﻿using E_commerce.Application.Contracts;
+using E_commerce.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mapster;
-using MyEcommerce.Application.Contracts;
-using MyEcommerce.DTOs.CategoriesDTOs;
-using MyEcommerce.Models;
 
-namespace MyEcommerce.Application.Services
+namespace E_commerce.Application.Services
 {
-    //public class CategoryService : ICategoryService
-    //{
-
-    //    ICategoryRepository _categoryRepo;
-    //    public CategoryService(ICategoryRepository Repo)
-    //    {
-    //        _categoryRepo = Repo;
-    //    }
-    //    public List<Category> GetAllCategories()
-    //    {
-    //        IQueryable<Category> allCategories = _categoryRepo.GetAll();
-    //        return allCategories.Where(c => c.products.Count >= 0).ToList();
-    //    }
-    //    public void CreateCategory(Category NewCat)
-    //    {;
-    //        _categoryRepo.Create(NewCat);
-    //    }
-    //    public void UpdateCategory(Category category)
-    //    {
-    //        _categoryRepo.Update(category);
-    //    }
-    //    public void DeleteCategory(Category category)
-    //    {
-    //        _categoryRepo.Delete(category);
-    //    }
-
-    //    public int Save()
-    //    {
-    //        return _categoryRepo.Save();
-    //    }
-    //}
     public class CategoryService : ICategoryService
     {
-        IGenericRepository<Category, int> _categoryRepo;
-        public CategoryService(IGenericRepository<Category, int> Repo)
+        //ICategoryRepository _CategoryRepo;
+        IGenericRepository<Category, int> _CategoryRepo;
+
+        public CategoryService(IGenericRepository<Category, int> catrepo)
         {
-            _categoryRepo = Repo;
+            _CategoryRepo = catrepo;
         }
-        public List<CategoryDTO> GetAllCategories()
+        public List<Category> GetAllCategories()
         {
-            IQueryable<Category> allCategories = _categoryRepo.GetAll();
-            return allCategories.Where(c => c.products.Count >= 0).ToList().Adapt<List<CategoryDTO>>();
+            //IQueryable<Category> allcategoriesquery = _CategoryRepo.GetAll();
+            //var allcats = allcategoriesquery.Where(c => c.Products.Count > 0)
+            //    .Skip((PageNumber - 1) * PageSize).Take(PageSize).ToList()
+                //.Adapt<List<Category>>();
+            //return allcats;
+            return _CategoryRepo.GetAll().ToList();
         }
-        public void CreateCategory(CategoryDTO newCat)
+
+        public void CreateCategory(Category category)
         {
-            var category = newCat.Adapt<Category>();
-            _categoryRepo.Create(category);
-        }
-        public void UpdateCategory(CategoryDTO categoryDto)
-        {
-            var entity = _categoryRepo.GetById(categoryDto.CategoryID);
-            if (entity != null)
+            Category newcat = new Category()
             {
-                categoryDto.Adapt(entity);
-                //entity.Name = categoryDto.CategoryName;
-                //entity.Description = categoryDto.Cat_Description;
-                //_categoryRepo.Update(entity);
-                _categoryRepo.Update(entity);
-            }
+                Name = category.Name,
+                Description = category.Description
+
+            };
+            //Category newcat = category.Adapt<Category>();
+            _CategoryRepo.create(newcat);
         }
-        public void DeleteCategory(CategoryDTO categoryDto)
+
+        public void DeleteCategory(Category category)
         {
-            var entity = _categoryRepo.GetById(categoryDto.CategoryID);
-            if (entity != null)
+            if (category != null)
             {
-                _categoryRepo.Delete(entity);
+                category.IsDeleted = true;
             }
+            else
+            {
+                throw new Exception("Category not found");
+            }
+            _CategoryRepo.delete(category);
         }
-        public int Save()
+
+        public void UpdateCategory(Category category)
         {
-            return _categoryRepo.Save();
+            _CategoryRepo.Update(category);
+        }
+
+        public Category GetCategoryById(int id)
+        {
+            return _CategoryRepo.GetById(id);
+        }
+
+        public Category GetCategoryByName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+                return null;
+
+            return _CategoryRepo.GetAll().FirstOrDefault(c => c.Name.ToLower() == name.ToLower());
+            //return _CategoryRepo.GetByName(name);
+        }
+
+        public int SaveCategory()
+        {
+            return _CategoryRepo.Save();
         }
     }
 }
